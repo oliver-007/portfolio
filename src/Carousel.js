@@ -1,11 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import TimeHooks from "./TimeHooks";
 
 const Carousel = () => {
   return (
     <React.Fragment>
       <header className="mb-5">
         <div className="container-fluid">
+          <TimeHooks />
           <div
             id="carouselExampleCaptions"
             className="carousel slide carousel-fade "
